@@ -16,14 +16,13 @@ export class SpotifyService {
 
   let url = this.urlBusqueda + query;
   let headers = new Headers();
-  headers.append('Authorization', 'Bearer BQBAby9QP49RiKr0jok4EVQ6-d72kbQox5kLCiTGgE0LV3FqJ81TWxNcO7RVsplXoN9eukM0Zg02Sc_BW_qSUCSmTlZakIHfE0nTY9XBJT5kIbvfdjyRJcq9KyrTIU8_2S3qp6qzjSo');
+  headers.append('Authorization', 'Bearer BQBlYmmRBJwwMvjYySVXLkEhpfdgJmeVevsqR5FgsxS9w5GU3AuXBmBnNRLXEw9GV-NCQcjNkSMSomGwqiLqWv-Zk27vswgHjjYcxedtv67dKrjVOqo3Ke_ic-nH_IU5cIvFb3a246k');
 
   return this.http.get( url , { headers })
         .map( res => {
            this.artistas = res.json().artists.items;
            console.log(this.artistas);
-
-        } )
-
+          }
+        )
   }
 }
