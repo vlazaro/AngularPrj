@@ -1,8 +1,11 @@
 <nav class="navbar navbar-expand-lg vic-bg">
-  <!-- <button class="navbar-toggler" type="button"
-    data-toggle="collapse" data-target="#navbarSupportedContent"
-    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-  </button> -->
+    <a class="navbar-brand" href="#">
+      <img src="/assets/img/bootstrap-solid.svg" width="30" height="30" alt="">
+    </a>
+    <a class="navbar-brand" href="#">HomeSearch</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
@@ -26,18 +29,8 @@
         </div>
       </li>
     </ul>
-    <form class="form-inline mr-sm-2">
-      <button class="btn btn-info mr-sm-2 vic-bg"
-        name="savehome " type="submit">Guardar propiedad</button>
-      <button class="btn btn-info mr-sm-5 vic-bg" name="savesearch" type="submit">Guardar busqueda</button>
-    </form>
-
-    <form class="form-inline mr-sm-2">
-      <button class="btn btn-info vic-bg mr-sm-2" name="login" type="submit">Login</button>
-      <button class="btn btn-info vic-bg mr-sm-2" name="register" type="submit">Registrate</button>
-    </form>
-
-
+    <app-save></app-save>
+    <app-login></app-login>
 
   </div>
 </nav>
