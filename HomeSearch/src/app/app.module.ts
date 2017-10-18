@@ -9,6 +9,7 @@ import { SearchComponent } from './components/filtros/search/search.component';
 import { ComboComponent } from './components/filtros/combo/combo.component';
 import { GooglemapComponent } from './components/body/googlemap/googlemap.component';
 import { ViewpropComponent } from './components/body/viewprop/viewprop.component';
+import { HomeComponent } from './components/body/home/home.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ViewpropComponent } from './components/body/viewprop/viewprop.component
     SearchComponent,
     ComboComponent,
     GooglemapComponent,
-    ViewpropComponent
+    ViewpropComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule
