@@ -2,7 +2,10 @@ body {
   padding-bottom: 40px;
   color: #5a5a5a;
 }
-
+a li{
+  border-radius: 0px;
+  border: none;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -33,7 +36,9 @@ body {
 }
 #navForm{
   position:absolute;
-  	top:30%;
+  top:30%;
+  margin-bottom: 5px;
+
 }
 
 #searchForm {
