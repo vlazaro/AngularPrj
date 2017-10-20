@@ -1,22 +1,52 @@
-#inner {
-    position:absolute;
-    left: 40%;
-    top: 35%;
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
 }
 
-.vic-bg{
-  background-color:#ff8300;
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+.carousel {
+  margin-bottom: 60px;
 }
-a{
-  color: white
+
+.carousel-control {
+  top: 76%;
 }
-button{
-  border-color: white;
+
+.carousel-caption {
+  z-index: 10;
 }
-li{
-  border-color: white;
+
+.carousel .carousel-item {
+  height: 500px;
+  background-color:#bbb;
+  overflow:hidden;
 }
-img{
-  max‐width: 100%;
-  height: auto;
+.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+#searchForm {
+	position:absolute;
+  	top:40%;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (max-width: 768px) {
+
+  .carousel-inner>.carousel-item >img, .carousel-inner>.carousel-item>a>img {
+  	max-width:inherit;
+  }
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
 }
