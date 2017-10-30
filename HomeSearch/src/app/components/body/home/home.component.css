@@ -1,17 +1,20 @@
 body {
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   color: #5a5a5a;
 }
 a li{
-  border-radius: 0px;
+  border-radius: 1px;
   border: none;
+}
+button{
+  border:none;
 }
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
 .carousel {
-  margin-bottom: 60px;
+  margin-bottom: 5px;
 }
 
 .carousel-control {
@@ -41,14 +44,14 @@ a li{
 
 }
 
-#searchForm {
+/* #searchForm {
 	position:absolute;
-  	top:40%;
-}
+  	top:45%;
+} */
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
 
   .carousel-inner>.carousel-item >img, .carousel-inner>.carousel-item>a>img {
   	max-width:inherit;
@@ -58,4 +61,4 @@ a li{
     font-size: 21px;
     line-height: 1.4;
   }
-}
+} */

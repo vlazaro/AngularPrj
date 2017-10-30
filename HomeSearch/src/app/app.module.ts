@@ -10,6 +10,9 @@ import { ComboComponent } from './components/filtros/combo/combo.component';
 import { GooglemapComponent } from './components/body/googlemap/googlemap.component';
 import { ViewpropComponent } from './components/body/viewprop/viewprop.component';
 import { HomeComponent } from './components/body/home/home.component';
+import { AgmCoreModule } from '@agm/core';
+
+
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { HomeComponent } from './components/body/home/home.component';
     HomeComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AgmCoreModule.forRoot({
+      apiKey:  'AIzaSyDzdGdMzkl6wi2x7fYu1s5YGHLZwcn1zCI'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
