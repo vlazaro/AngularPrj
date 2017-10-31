@@ -3,12 +3,25 @@ body {
   color: #5a5a5a;
 }
 a li{
-  border-radius: 1px;
+  border-radius: 0px;
   border: none;
+  border-style: solid;
 }
-button{
-  border:none;
+
+.nav-link:hover{
+  color:black;
+  text-decoration-color: black;
+  border-radius: 1px;
+  border: 1px solid #ddd;
+
 }
+.nav-link{
+  border-radius: 0px;
+  border: 1px solid #ddd;
+  color:grey;
+
+}
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -44,6 +57,7 @@ button{
 
 }
 
+
 /* #searchForm {
 	position:absolute;
   	top:45%;
@@ -51,14 +65,25 @@ button{
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
-/* @media (max-width: 768px) {
-
-  .carousel-inner>.carousel-item >img, .carousel-inner>.carousel-item>a>img {
-  	max-width:inherit;
+ @media (max-width: 768px) {
+  /* .carousel-inner>.carousel-item >img, .carousel-inner>.carousel-item>a>img {
+    max-width:inherit;
+    height: 250px;
+  } */
+  .carousel .carousel-item {
+    height: 250px;
+    background-color:#bbb;
+    overflow:hidden;
   }
-  .carousel-caption p {
+ .carousel-caption p {
     margin-bottom: 20px;
-    font-size: 21px;
+    font-size: 12px;
     line-height: 1.4;
   }
-} */
+  .nav-link{
+    width:  80px;
+    font-size: 12px;
+    height: auto;
+  }
+
+} 
