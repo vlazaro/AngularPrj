@@ -5,12 +5,11 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/menu/navbar/navbar.component';
 import { SaveComponent } from './components/menu/save/save.component';
 import { LoginComponent } from './components/menu/login/login.component';
-import { SearchComponent } from './components/filtros/search/search.component';
-import { ComboComponent } from './components/filtros/combo/combo.component';
 import { GooglemapComponent } from './components/body/googlemap/googlemap.component';
 import { ViewpropComponent } from './components/body/viewprop/viewprop.component';
 import { HomeComponent } from './components/body/home/home.component';
 import { AgmCoreModule } from '@agm/core';
+import { FiltroComponent } from './components/filtro/filtro.component';
 
 
 
@@ -20,11 +19,10 @@ import { AgmCoreModule } from '@agm/core';
     NavbarComponent,
     SaveComponent,
     LoginComponent,
-    SearchComponent,
-    ComboComponent,
     GooglemapComponent,
     ViewpropComponent,
-    HomeComponent
+    HomeComponent,
+    FiltroComponent
   ],
   imports: [
     BrowserModule,

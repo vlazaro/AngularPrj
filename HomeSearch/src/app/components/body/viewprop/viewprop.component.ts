@@ -5,11 +5,10 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './viewprop.component.html',
   styleUrls: ['./viewprop.component.css']
 })
-export class ViewpropComponent implements OnInit {
+export class ViewpropComponent {
 
-  constructor() { }
+  cards: number[] = [1, 2, 3];
 
-  ngOnInit() {
-  }
+  constructor() {}
 
 }
