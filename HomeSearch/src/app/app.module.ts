@@ -12,6 +12,7 @@ import { AgmCoreModule } from '@agm/core';
 import { FiltroComponent } from './components/filtro/filtro.component';
 import { CardhomeComponent } from './components/shared/cardhome/cardhome.component';
 import { JumbobotronComponent } from './components/foot/jumbobotron/jumbobotron.component';
+import { FooterComponent } from './components/foot/footer/footer.component';
 
 
 
@@ -26,7 +27,8 @@ import { JumbobotronComponent } from './components/foot/jumbobotron/jumbobotron.
     HomeComponent,
     FiltroComponent,
     CardhomeComponent,
-    JumbobotronComponent
+    JumbobotronComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

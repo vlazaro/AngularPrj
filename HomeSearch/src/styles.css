@@ -15,6 +15,7 @@ hr{
 
 .puntero{
   cursor: pointer;
+  cursor: hand;
 }
 
 .carousel-item{
