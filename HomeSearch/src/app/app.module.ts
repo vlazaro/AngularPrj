@@ -10,6 +10,8 @@ import { ViewpropComponent } from './components/body/viewprop/viewprop.component
 import { HomeComponent } from './components/body/home/home.component';
 import { AgmCoreModule } from '@agm/core';
 import { FiltroComponent } from './components/filtro/filtro.component';
+import { CardhomeComponent } from './components/shared/cardhome/cardhome.component';
+import { JumbobotronComponent } from './components/foot/jumbobotron/jumbobotron.component';
 
 
 
@@ -22,7 +24,9 @@ import { FiltroComponent } from './components/filtro/filtro.component';
     GooglemapComponent,
     ViewpropComponent,
     HomeComponent,
-    FiltroComponent
+    FiltroComponent,
+    CardhomeComponent,
+    JumbobotronComponent
   ],
   imports: [
     BrowserModule,
